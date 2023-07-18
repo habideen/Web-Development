@@ -1,0 +1,40 @@
+body {
+  background-color: rgba(0, 0, 30, 0.1);
+  /* red green blue 0 - 255*/
+  background-color: yellow;
+  background-color: #a40033;
+}
+
+#par_1 {
+  color: aqua;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  /*px rem em  */
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+#menu li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+#menu a {
+  color: #f0f0e4;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  color: #a40033;
+  display: inline-block;
+}
+
+#menu li:hover {
+  background-color: #afafa9;
+  border-radius: 7px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <h1>Home page</h1>
+    <ul id="menu">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+      <li><a href="/specialchars.html">Special Characters</a></li>
+    </ul>
+
+    <br /><br /><br />
+
+    <figure>
+      <img
+        src="/assets/img/andela.png"
+        alt="Our image"
+        srcset="/assets/img/img_1.png 480w, /assets/img/img_2.png 800w"
+        sizes="(min-width: 800px) 800px,
+      (min-width: 400px) 200px"
+      />
+      <figcaption>My wedding pictures 1</figcaption>
+    </figure>
+    PNG, SVG, JPG, GIF
+
+    <figure>
+      <picture>
+        <source media="(min-width: 800px)" srcset="/assets/img/img_1.png" />
+        <source media="(min-width: 400px)" srcset="/assets/img/img_2.png" />
+        <img src="/assets/img/andela.png" alt="My picture" />
+      </picture>
+      <figcaption>My wedding pictures 1</figcaption>
+    </figure>
+  </body>
+</html>
