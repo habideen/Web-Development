@@ -2,7 +2,7 @@ body {
   background-color: rgba(0, 0, 30, 0.1);
   /* red green blue 0 - 255*/
   background-color: yellow;
-  background-color: #a40033;
+  background-color: #f7f7f7;
 }
 
 #par_1 {
@@ -25,12 +25,12 @@ body {
 }
 
 #menu a {
-  color: #f0f0e4;
+  color: #2e2e2c;
   text-decoration: none;
 }
 
 #menu a:hover {
-  color: #a40033;
+  color: #000000;
   display: inline-block;
 }
 
