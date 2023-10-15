@@ -1,0 +1,25 @@
+.linear,
+.linear-repeat,
+.radian-repeat,
+.radian {
+  padding: 10px;
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+}
+
+.linear {
+  background: linear-gradient(180deg, red 30%, black, blue, cyan, darkred);
+}
+
+.linear-repeat {
+  background: repeating-linear-gradient(90deg, #0b4b03, #0b4b03 12.5%, #34da4a 12.5%, #34da4a 25%);
+}
+
+.radian {
+  background: radial-gradient(red 30%, black, blue, cyan, darkred);
+}
+
+.radian-repeat {
+  background: repeating-radial-gradient(#0b4b03, #0b4b03 12.5%, #34da4a 12.5%, #34da4a 25%);
+}

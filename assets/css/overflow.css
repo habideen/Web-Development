@@ -1,0 +1,51 @@
+.content {
+  display: inline-block;
+  margin-top: 0;
+  background-color: red;
+  width: 400px;
+  height:100px;
+  overflow-wrap: break-word;
+}
+
+.players {
+  display: inline-block;
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+  height: 95vh;
+  overflow-y: scroll;
+}
+
+.players > .player {
+  background-color: #eeeeee;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 7px;
+}
+
+.players > .player > img {
+  width: auto;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #286120;
+  box-shadow: 0 0 1px rgba(78, 189, 14, 0.5);
+}
+
+/* Add a margin to the left of the custom scrollbar track */
+
+::-webkit-scrollbar-track {
+  margin-left: 20px;
+}

@@ -1,0 +1,67 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+* {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 20px;
+  color: rgb(56, 95, 56);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  font-style: italic;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+div {
+  background-color: #aaa;
+}
+
+#banner {
+  background-color: #eeeded;
+}
+
+#banner h1 {
+  color: rgb(90, 184, 90);
+}
+
+#banner > span {
+  color: #b82c2c;
+}
+
+#banner span {
+  font-weight: bold;
+  font-size: 55px;
+}
+
+div#banner, div#banner div {
+  background-color: rgb(226, 226, 226);
+}
+
+.box {
+  color: cyan;
+  background-color: black;
+  padding: 15px;
+  border: 3px solid red;
+  margin: 20px;
+}
+
+/*+ ~*/
+
+
+
+
+
+
+
+

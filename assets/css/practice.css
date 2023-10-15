@@ -1,0 +1,27 @@
+.one {
+  /* background-color: red; */
+  /* background-color: rgb(226, 210, 100); */
+  background-color: #833c47; /*hexadecimal: 00-ff rgb*/
+  color: #fff;
+  padding: 30px;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 50%;
+  /* border-radius: 10px 40px 100px 200px; */
+  /* border-top-style : dashed; */
+  /* border-bottom: 10px solid cyan; */
+}
+
+h1 {
+  background-color: blue;
+  color: #fff;
+  height: 100px;
+  width: 50%;
+  
+}
+span {
+  background-color: green;
+  width: 100%;
+  /* display: inline-block; */
+}

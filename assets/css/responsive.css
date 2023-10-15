@@ -1,0 +1,63 @@
+:root {
+ --black: #2c2c2c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+nav .logo img {
+  width: 60px;
+}
+
+nav .logo, nav .menu, nav ul {
+  display: inline;
+}
+
+nav .menu {
+}
+
+nav .menu ul li {
+  display: inline;
+}
+
+nav .menu ul li:not(:last-child) {
+  border-right: 1px solid var(--black);
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+nav .menu ul li a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.banner {
+  padding: 50px 0;
+  background: linear-gradient(10deg, #0101ad, #0101ad, #0101ad, white);
+  color: #f0f0f0;
+}
+
+.banner_text {
+  width: 500px;
+  line-height: 1.1rem;
+}
+
+.banner_text h1 {
+  margin-bottom: 15px;
+}
